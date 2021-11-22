@@ -38,6 +38,7 @@ nav li {
     background-color: #1f2937;
     height: 400px;
     display: flex;
+    justify-content: center;
 }
 
 .content-startpage {
@@ -173,4 +174,55 @@ nav li {
 
 .author {
     margin-left: auto;
+}
+
+/* signup */
+
+.signup-start {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    display: flex;
+    align-self: center;
+    width: 1400px;
+    height: 150px;
+    max-height: 200px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.signup-text {
+    flex: 1;
+    align-self: center;
+    margin: 0px 80px 0px 80px;
+}
+
+.signup-text h3 {
+    color: #f9faf8;
+    font-size: 28px;
+}
+
+.signup-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action-button-parent {
+    align-self: center;
+    height: 35px;
+    display: flex;
+    margin-right: 100px;
+}
+
+.action-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
 }
